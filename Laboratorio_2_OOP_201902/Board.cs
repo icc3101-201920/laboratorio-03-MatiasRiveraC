@@ -109,12 +109,12 @@ namespace Laboratorio_2_OOP_201902
             foreach (var keys in playerCards)
             {
                 playerCards[0].Clear();
-                playerCards[1].Clear()
+                playerCards[1].Clear();
             }
 
             
-            playerCards[0].Add("captain", new List<Card>() { captainCards[playerCards[0]});
-            playerCards[1].Add("captain", new List<Card>() { captainCards[playerCards[1]});
+            playerCards[0].Add("captain",  captainCards[0] );
+            playerCards[1].Add("captain", captainCards[1]);
 
 
 
