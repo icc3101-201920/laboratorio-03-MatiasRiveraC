@@ -71,6 +71,21 @@ namespace Laboratorio_2_OOP_201902
             }
             else
             {
+                if (!(playerCards[playerId].ContainsKey("captain")))
+                {
+                    playerCards[playerId].Add(card.Type, new List<Card>() { card });
+                }
+
+                if ()
+                {
+
+                }
+
+
+                if (card.Type == "weather")
+                {
+                    weatherCards.Add(card);
+                }
                 //Es capitan? IMPLEMENTAR 
                 //Revisar si no se ha agregado el capitan en el diccionario que representa las cartas del jugador, en caso de existir, no permitir que se agregue la carta.
                 //Es buffer? IMPLEMENTAR
@@ -90,6 +105,28 @@ namespace Laboratorio_2_OOP_201902
             };
             //Destruir todas las cartas
             //IMPLEMENTE
+
+            foreach (var keys in playerCards)
+            {
+                playerCards[keys[].Clear();
+            }
+
+            playerCards[0].Remove("melee");
+            playerCards[0].Remove("range");
+            playerCards[0].Remove("longRange");
+            playerCards[0].Remove("captain");
+            playerCards[1].Remove("melee");
+            playerCards[1].Remove("range");
+            playerCards[1].Remove("longRange");
+            playerCards[1].Remove("captain");
+            
+            playerCards[0].Add("captain", new List<Card>() { captainCards[playerCards[0]});
+            playerCards[1].Add("captain", new List<Card>() { captainCards[playerCards[1]});
+
+
+
+        }
+
             //Agregar nuevamente los capitanes
             //IMPLEMENTE
 
