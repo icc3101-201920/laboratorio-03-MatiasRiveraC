@@ -1,4 +1,4 @@
-﻿using Laboratorio_2_OOP_201902.Card;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,6 +9,8 @@ namespace Laboratorio_2_OOP_201902
     {
         private List<CombatCard> combatCards;
         private List<SpecialCard> SpecialCards;
+        //Card Cards = { new CombatCard(), new SpecialCard() };
+        List<Card>[] cards;
 
         public Deck()
         {
