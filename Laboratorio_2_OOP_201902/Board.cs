@@ -108,17 +108,10 @@ namespace Laboratorio_2_OOP_201902
 
             foreach (var keys in playerCards)
             {
-                playerCards[keys[].Clear();
+                playerCards[0].Clear();
+                playerCards[1].Clear()
             }
 
-            playerCards[0].Remove("melee");
-            playerCards[0].Remove("range");
-            playerCards[0].Remove("longRange");
-            playerCards[0].Remove("captain");
-            playerCards[1].Remove("melee");
-            playerCards[1].Remove("range");
-            playerCards[1].Remove("longRange");
-            playerCards[1].Remove("captain");
             
             playerCards[0].Add("captain", new List<Card>() { captainCards[playerCards[0]});
             playerCards[1].Add("captain", new List<Card>() { captainCards[playerCards[1]});
